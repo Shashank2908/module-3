@@ -1,0 +1,21 @@
+*
+{
+	padding:0;
+	margin:0;
+	transition:0.12s;
+}
+.navbar-toggler
+{
+	display:none;
+}
+@media only screen and (max-width: 990px) and (min-width: 200px)
+{
+	.navbar-toggler
+	{
+		display:block;
+	}
+	.one
+	{
+		background-color:red;
+	}
+}
